@@ -60,4 +60,10 @@ public class UserService {
         userRepository.save(user);
 
     }
+
+    public void deleteUserById(long id) {
+        User user = userRepository.findById(id).orElseThrow(() -> new IllegalArgumentException("User with id " + id + " not found"));
+        log.info("Deleting user with id : {}", user.getId());
+        userRepository.delete(user);
+    }
 }
