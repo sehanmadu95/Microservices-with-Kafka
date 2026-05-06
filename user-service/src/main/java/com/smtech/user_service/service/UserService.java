@@ -32,23 +32,20 @@ public class UserService {
     }
 
     public UserDto createUser(UserDto userDto) {
-        log.info("Creating user: {}", userDto.getEmail());
 
         User user = userMapper.toEntity(userDto);
         User savedUser = userRepository.save(user);
 
-        log.info("User created with id: {}", savedUser.getId());
         return userMapper.toDto(savedUser);
     }
 
     public UserDto getUserById(Long id) {
         User user = userRepository.findById(id).orElse(null);
-        log.info("User found with email: {}", user.getEmail());
         return userMapper.toDto(user);
     }
 
     public void updateUser(long id, UserDto userDto) {
-        log.info("Updating user: {}", userDto.getEmail());
+
         User user = userRepository.findById(id).orElseThrow(()-> new IllegalArgumentException("User with id " + id + " not found"));
 
         user.setName(userDto.getName());
@@ -63,7 +60,6 @@ public class UserService {
 
     public void deleteUserById(long id) {
         User user = userRepository.findById(id).orElseThrow(() -> new IllegalArgumentException("User with id " + id + " not found"));
-        log.info("Deleting user with id : {}", user.getId());
         userRepository.delete(user);
     }
 }
