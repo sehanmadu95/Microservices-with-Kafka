@@ -6,135 +6,150 @@
         <entry key="0">
           <value>
             <ReqHistory>
-              <option name="body" value="{&#10;  &quot;name&quot;: &quot;Sehan&quot;,&#10;  &quot;surname&quot;: &quot;Jayawila Arachchige&quot;,&#10;  &quot;email&quot;: &quot;sehan@gmail.com&quot;,&#10;  &quot;address&quot;: &quot;Nattandiya, Sri Lanka&quot;,&#10;  &quot;alerting&quot;: false,&#10;  &quot;emergencyAlertingThreshold&quot;: 0&#10;}" />
-              <option name="contentType" value="application/json" />
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
               </option>
               <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
+              <option name="id" value="0" />
+              <option name="method" value="GET" />
+              <option name="params">
                 <map>
-                  <entry key="Content-Type" value="application/json" />
+                  <entry key="id" value="1" />
                 </map>
               </option>
-              <option name="host" value="http://127.0.0.1:8080" />
-              <option name="id" value="0" />
-              <option name="method" value="POST" />
-              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Wed May 06 00:08:31 JST 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Internal Server Error, status=500).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
-              <option name="time" value="2026-05-06 00:08:32" />
-              <option name="uri" value="/api/v1/user" />
+              <option name="res" value="Device not found with id: 1" />
+              <option name="time" value="2026-05-07 15:40:30" />
+              <option name="uri" value="" />
             </ReqHistory>
           </value>
         </entry>
         <entry key="1">
           <value>
             <ReqHistory>
-              <option name="body" value="{&#10;  &quot;name&quot;: &quot;Sehan&quot;,&#10;  &quot;surname&quot;: &quot;Jayawila Arachchige&quot;,&#10;  &quot;email&quot;: &quot;sehan@gmail.com&quot;,&#10;  &quot;address&quot;: &quot;Nattandiya, Sri Lanka&quot;,&#10;  &quot;alerting&quot;: false,&#10;  &quot;emergencyAlertingThreshold&quot;: 0&#10;}" />
-              <option name="contentType" value="application/json" />
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
               </option>
               <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
+              <option name="id" value="1" />
+              <option name="method" value="GET" />
+              <option name="params">
                 <map>
-                  <entry key="Content-Type" value="application/json" />
+                  <entry key="id" value="1" />
                 </map>
               </option>
-              <option name="host" value="http://127.0.0.1:8080" />
-              <option name="id" value="1" />
-              <option name="method" value="POST" />
-              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Wed May 06 00:10:38 JST 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Internal Server Error, status=500).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
-              <option name="time" value="2026-05-06 00:10:38" />
-              <option name="uri" value="/api/v1/user" />
+              <option name="res" value="Device not found with id: 1" />
+              <option name="time" value="2026-05-07 15:40:30" />
+              <option name="uri" value="" />
             </ReqHistory>
           </value>
         </entry>
         <entry key="2">
           <value>
             <ReqHistory>
-              <option name="body" value="{&#10; &#10;  &quot;name&quot;: &quot;Sehan&quot;,&#10;  &quot;surname&quot;: &quot;Jayawila&quot;,&#10;  &quot;email&quot;: &quot;sehan@gmail.com&quot;,&#10;  &quot;address&quot;: &quot;Nattandiya, Sri Lanka&quot;,&#10;  &quot;alerting&quot;: false,&#10;  &quot;emergencyAlertingThreshold&quot;: 0&#10;}" />
-              <option name="contentType" value="application/json" />
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
               </option>
               <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
+              <option name="id" value="2" />
+              <option name="method" value="GET" />
+              <option name="params">
                 <map>
-                  <entry key="Content-Type" value="application/json" />
+                  <entry key="id" value="1" />
                 </map>
               </option>
-              <option name="host" value="http://127.0.0.1:8080" />
-              <option name="id" value="2" />
-              <option name="method" value="POST" />
-              <option name="res" value="{&quot;id&quot;:1,&quot;name&quot;:&quot;Sehan&quot;,&quot;surname&quot;:&quot;Jayawila&quot;,&quot;email&quot;:&quot;sehan@gmail.com&quot;,&quot;address&quot;:&quot;Nattandiya, Sri Lanka&quot;,&quot;alerting&quot;:false,&quot;emergencyAlertingThreshold&quot;:0.0}" />
-              <option name="time" value="2026-05-06 00:13:01" />
-              <option name="uri" value="/api/v1/user" />
+              <option name="res" value="Device not found with id: 1" />
+              <option name="time" value="2026-05-07 15:40:30" />
+              <option name="uri" value="" />
             </ReqHistory>
           </value>
         </entry>
         <entry key="3">
           <value>
             <ReqHistory>
-              <option name="body" value="{&#10; &#10;  &quot;name&quot;: &quot;Sehan&quot;,&#10;  &quot;surname&quot;: &quot;Jayawila&quot;,&#10;  &quot;email&quot;: &quot;sehan@gmail.com&quot;,&#10;  &quot;address&quot;: &quot;Nattandiya, Sri Lanka&quot;,&#10;  &quot;alerting&quot;: false,&#10;  &quot;emergencyAlertingThreshold&quot;: 0&#10;}" />
-              <option name="contentType" value="application/json" />
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
               </option>
               <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
+              <option name="id" value="3" />
+              <option name="method" value="GET" />
+              <option name="params">
                 <map>
-                  <entry key="Content-Type" value="application/json" />
+                  <entry key="id" value="1" />
                 </map>
               </option>
-              <option name="host" value="http://127.0.0.1:8080" />
-              <option name="id" value="3" />
-              <option name="method" value="POST" />
-              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Wed May 06 00:22:59 JST 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Internal Server Error, status=500).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
-              <option name="time" value="2026-05-06 00:22:59" />
-              <option name="uri" value="/api/v1/user" />
+              <option name="res" value="Device not found with id: 1" />
+              <option name="time" value="2026-05-07 15:40:31" />
+              <option name="uri" value="" />
             </ReqHistory>
           </value>
         </entry>
         <entry key="4">
           <value>
             <ReqHistory>
-              <option name="body" value="{&#10; &#10;  &quot;name&quot;: &quot;Sehan&quot;,&#10;  &quot;surname&quot;: &quot;Jayawila&quot;,&#10;  &quot;email&quot;: &quot;sehan2@gmail.com&quot;,&#10;  &quot;address&quot;: &quot;Nattandiya, Sri Lanka&quot;,&#10;  &quot;alerting&quot;: false,&#10;  &quot;emergencyAlertingThreshold&quot;: 0&#10;}" />
-              <option name="contentType" value="application/json" />
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
               </option>
               <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
+              <option name="id" value="4" />
+              <option name="method" value="GET" />
+              <option name="params">
                 <map>
-                  <entry key="Content-Type" value="application/json" />
+                  <entry key="id" value="1" />
                 </map>
               </option>
-              <option name="host" value="http://127.0.0.1:8080" />
-              <option name="id" value="4" />
-              <option name="method" value="POST" />
-              <option name="res" value="{&quot;id&quot;:3,&quot;name&quot;:&quot;Sehan&quot;,&quot;surname&quot;:&quot;Jayawila&quot;,&quot;email&quot;:&quot;sehan2@gmail.com&quot;,&quot;address&quot;:&quot;Nattandiya, Sri Lanka&quot;,&quot;alerting&quot;:false,&quot;emergencyAlertingThreshold&quot;:0.0}" />
-              <option name="time" value="2026-05-06 00:23:30" />
-              <option name="uri" value="/api/v1/user" />
+              <option name="res" value="Device not found with id: 1" />
+              <option name="time" value="2026-05-07 15:40:31" />
+              <option name="uri" value="" />
             </ReqHistory>
           </value>
         </entry>
         <entry key="5">
           <value>
             <ReqHistory>
-              <option name="body" value="{&#10;  &quot;name&quot;: &quot;Madusha&quot;,&#10;  &quot;surname&quot;: &quot;Senanayaka&quot;,&#10;  &quot;email&quot;: &quot;madusha@gmail.com&quot;,&#10;  &quot;address&quot;: &quot;Kalagediheena&quot;,&#10;  &quot;alerting&quot;: false,&#10;  &quot;emergencyAlertingThreshold&quot;: 0&#10;}" />
-              <option name="contentType" value="application/json" />
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
               </option>
               <option name="headers">
-                <map>
-                  <entry key="Content-Type" value="application/json" />
-                </map>
-              </option>
-              <option name="host" value="http://127.0.0.1:8080" />
-              <option name="id" value="5" />
-              <option name="method" value="POST" />
-              <option name="params">
                 <map />
               </option>
-              <option name="res" value="{&quot;id&quot;:4,&quot;name&quot;:&quot;Madusha&quot;,&quot;surname&quot;:&quot;Senanayaka&quot;,&quot;email&quot;:&quot;madusha@gmail.com&quot;,&quot;address&quot;:&quot;Kalagediheena&quot;,&quot;alerting&quot;:false,&quot;emergencyAlertingThreshold&quot;:0.0}" />
-              <option name="time" value="2026-05-06 10:00:06" />
-              <option name="uri" value="/api/v1/user" />
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
+              <option name="id" value="5" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="1" />
+                </map>
+              </option>
+              <option name="res" value="Device not found with id: 1" />
+              <option name="time" value="2026-05-07 15:40:31" />
+              <option name="uri" value="" />
             </ReqHistory>
           </value>
         </entry>
@@ -149,17 +164,17 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
               <option name="id" value="6" />
               <option name="method" value="GET" />
               <option name="params">
                 <map>
-                  <entry key="id" value="0" />
+                  <entry key="id" value="1" />
                 </map>
               </option>
-              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Wed May 06 10:00:36 JST 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Bad Request, status=400).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
-              <option name="time" value="2026-05-06 10:00:36" />
-              <option name="uri" value="/api/v1/user/{4}" />
+              <option name="res" value="Device not found with id: 1" />
+              <option name="time" value="2026-05-07 15:40:31" />
+              <option name="uri" value="" />
             </ReqHistory>
           </value>
         </entry>
@@ -174,44 +189,42 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
               <option name="id" value="7" />
               <option name="method" value="GET" />
               <option name="params">
                 <map>
-                  <entry key="id" value="0" />
+                  <entry key="id" value="1" />
                 </map>
               </option>
-              <option name="res" value="{&quot;id&quot;:4,&quot;name&quot;:&quot;Madusha&quot;,&quot;surname&quot;:&quot;Senanayaka&quot;,&quot;email&quot;:&quot;madusha@gmail.com&quot;,&quot;address&quot;:&quot;Kalagediheena&quot;,&quot;alerting&quot;:false,&quot;emergencyAlertingThreshold&quot;:0.0}" />
-              <option name="time" value="2026-05-06 10:00:48" />
-              <option name="uri" value="/api/v1/user/4" />
+              <option name="res" value="Device not found with id: 1" />
+              <option name="time" value="2026-05-07 15:40:32" />
+              <option name="uri" value="" />
             </ReqHistory>
           </value>
         </entry>
         <entry key="8">
           <value>
             <ReqHistory>
-              <option name="body" value="{&#10;  &quot;id&quot;: 0,&#10;  &quot;name&quot;: &quot;Madusha&quot;,&#10;  &quot;surname&quot;: &quot;Senanayaka&quot;,&#10;  &quot;email&quot;: &quot;madusha@gmail.com&quot;,&#10;  &quot;address&quot;: &quot;Kalagedihena&quot;,&#10;  &quot;alerting&quot;: true,&#10;  &quot;emergencyAlertingThreshold&quot;: 0&#10;}" />
-              <option name="contentType" value="application/json" />
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
               </option>
               <option name="headers">
-                <map>
-                  <entry key="Content-Type" value="application/json" />
-                </map>
+                <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
               <option name="id" value="8" />
-              <option name="method" value="PUT" />
+              <option name="method" value="GET" />
               <option name="params">
                 <map>
-                  <entry key="id" value="0" />
+                  <entry key="id" value="1" />
                 </map>
               </option>
-              <option name="res" value="User updated" />
-              <option name="time" value="2026-05-06 10:03:01" />
-              <option name="uri" value="/api/v1/user/4" />
+              <option name="res" value="Device not found with id: 1" />
+              <option name="time" value="2026-05-07 15:40:32" />
+              <option name="uri" value="" />
             </ReqHistory>
           </value>
         </entry>
@@ -226,17 +239,17 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
               <option name="id" value="9" />
-              <option name="method" value="DELETE" />
+              <option name="method" value="GET" />
               <option name="params">
                 <map>
-                  <entry key="id" value="0" />
+                  <entry key="id" value="1" />
                 </map>
               </option>
-              <option name="res" value="User deleted" />
-              <option name="time" value="2026-05-06 10:03:24" />
-              <option name="uri" value="/api/v1/user/3" />
+              <option name="res" value="Device not found with id: 1" />
+              <option name="time" value="2026-05-07 15:40:32" />
+              <option name="uri" value="" />
             </ReqHistory>
           </value>
         </entry>
@@ -251,117 +264,117 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
               <option name="id" value="10" />
               <option name="method" value="GET" />
               <option name="params">
                 <map>
-                  <entry key="id" value="0" />
+                  <entry key="id" value="1" />
                 </map>
               </option>
-              <option name="res" value="{&quot;id&quot;:4,&quot;name&quot;:&quot;Madusha&quot;,&quot;surname&quot;:&quot;Senanayaka&quot;,&quot;email&quot;:&quot;madusha@gmail.com&quot;,&quot;address&quot;:&quot;Kalagedihena&quot;,&quot;alerting&quot;:true,&quot;emergencyAlertingThreshold&quot;:0.0}" />
-              <option name="time" value="2026-05-06 10:54:44" />
-              <option name="uri" value="/api/v1/user/4" />
+              <option name="res" value="Device not found with id: 1" />
+              <option name="time" value="2026-05-07 15:40:32" />
+              <option name="uri" value="" />
             </ReqHistory>
           </value>
         </entry>
         <entry key="11">
           <value>
             <ReqHistory>
-              <option name="body" value="{&#10;  &quot;id&quot;: 0,&#10;  &quot;name&quot;: &quot;test&quot;,&#10;  &quot;surname&quot;: &quot;test&quot;,&#10;  &quot;email&quot;: &quot;test@gmail.com&quot;,&#10;  &quot;address&quot;: &quot;test&quot;,&#10;  &quot;alerting&quot;: false,&#10;  &quot;emergencyAlertingThreshold&quot;: 0&#10;}" />
-              <option name="contentType" value="application/json" />
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
               </option>
               <option name="headers">
-                <map>
-                  <entry key="Content-Type" value="application/json" />
-                </map>
-              </option>
-              <option name="host" value="http://127.0.0.1:8080" />
-              <option name="id" value="11" />
-              <option name="method" value="POST" />
-              <option name="params">
                 <map />
               </option>
-              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Wed May 06 11:28:50 JST 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Internal Server Error, status=500).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
-              <option name="time" value="2026-05-06 11:28:50" />
-              <option name="uri" value="/api/v1/user" />
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
+              <option name="id" value="11" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="1" />
+                </map>
+              </option>
+              <option name="res" value="Device not found with id: 1" />
+              <option name="time" value="2026-05-07 15:40:32" />
+              <option name="uri" value="" />
             </ReqHistory>
           </value>
         </entry>
         <entry key="12">
           <value>
             <ReqHistory>
-              <option name="body" value="{&#10;  &quot;name&quot;: &quot;test&quot;,&#10;  &quot;surname&quot;: &quot;test&quot;,&#10;  &quot;email&quot;: &quot;test@gmail.com&quot;,&#10;  &quot;address&quot;: &quot;test&quot;,&#10;  &quot;alerting&quot;: false,&#10;  &quot;emergencyAlertingThreshold&quot;: 0&#10;}" />
-              <option name="contentType" value="application/json" />
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
               </option>
               <option name="headers">
-                <map>
-                  <entry key="Content-Type" value="application/json" />
-                </map>
-              </option>
-              <option name="host" value="http://127.0.0.1:8080" />
-              <option name="id" value="12" />
-              <option name="method" value="POST" />
-              <option name="params">
                 <map />
               </option>
-              <option name="res" value="{&quot;id&quot;:5,&quot;name&quot;:&quot;test&quot;,&quot;surname&quot;:&quot;test&quot;,&quot;email&quot;:&quot;test@gmail.com&quot;,&quot;address&quot;:&quot;test&quot;,&quot;alerting&quot;:false,&quot;emergencyAlertingThreshold&quot;:0.0}" />
-              <option name="time" value="2026-05-06 11:29:23" />
-              <option name="uri" value="/api/v1/user" />
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
+              <option name="id" value="12" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="1" />
+                </map>
+              </option>
+              <option name="res" value="Device not found with id: 1" />
+              <option name="time" value="2026-05-07 15:40:33" />
+              <option name="uri" value="" />
             </ReqHistory>
           </value>
         </entry>
         <entry key="13">
           <value>
             <ReqHistory>
-              <option name="body" value="{&#10;  &quot;name&quot;: &quot;test&quot;,&#10;  &quot;surname&quot;: &quot;test&quot;,&#10;  &quot;email&quot;: &quot;test@gmail.com&quot;,&#10;  &quot;address&quot;: &quot;test&quot;,&#10;  &quot;alerting&quot;: false,&#10;  &quot;emergencyAlertingThreshold&quot;: 0&#10;}" />
-              <option name="contentType" value="application/json" />
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
               </option>
               <option name="headers">
-                <map>
-                  <entry key="Content-Type" value="application/json" />
-                </map>
-              </option>
-              <option name="host" value="http://127.0.0.1:8080" />
-              <option name="id" value="13" />
-              <option name="method" value="POST" />
-              <option name="params">
                 <map />
               </option>
-              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Wed May 06 11:57:03 JST 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Internal Server Error, status=500).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
-              <option name="time" value="2026-05-06 11:57:04" />
-              <option name="uri" value="/api/v1/user" />
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
+              <option name="id" value="13" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="1" />
+                </map>
+              </option>
+              <option name="res" value="Device not found with id: 1" />
+              <option name="time" value="2026-05-07 15:40:33" />
+              <option name="uri" value="" />
             </ReqHistory>
           </value>
         </entry>
         <entry key="14">
           <value>
             <ReqHistory>
-              <option name="body" value="{&#10;  &quot;name&quot;: &quot;test2&quot;,&#10;  &quot;surname&quot;: &quot;test2&quot;,&#10;  &quot;email&quot;: &quot;test2@gmail.com&quot;,&#10;  &quot;address&quot;: &quot;test2&quot;,&#10;  &quot;alerting&quot;: false,&#10;  &quot;emergencyAlertingThreshold&quot;: 0&#10;}" />
-              <option name="contentType" value="application/json" />
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
               </option>
               <option name="headers">
-                <map>
-                  <entry key="Content-Type" value="application/json" />
-                </map>
-              </option>
-              <option name="host" value="http://127.0.0.1:8080" />
-              <option name="id" value="14" />
-              <option name="method" value="POST" />
-              <option name="params">
                 <map />
               </option>
-              <option name="res" value="{&quot;id&quot;:7,&quot;name&quot;:&quot;test2&quot;,&quot;surname&quot;:&quot;test2&quot;,&quot;email&quot;:&quot;test2@gmail.com&quot;,&quot;address&quot;:&quot;test2&quot;,&quot;alerting&quot;:false,&quot;emergencyAlertingThreshold&quot;:0.0}" />
-              <option name="time" value="2026-05-06 11:57:55" />
-              <option name="uri" value="/api/v1/user" />
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
+              <option name="id" value="14" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="1" />
+                </map>
+              </option>
+              <option name="res" value="Device not found with id: 1" />
+              <option name="time" value="2026-05-07 15:40:33" />
+              <option name="uri" value="" />
             </ReqHistory>
           </value>
         </entry>
@@ -376,17 +389,17 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
               <option name="id" value="15" />
               <option name="method" value="GET" />
               <option name="params">
                 <map>
-                  <entry key="id" value="5" />
+                  <entry key="id" value="1" />
                 </map>
               </option>
-              <option name="res" value="{&quot;id&quot;:5,&quot;name&quot;:&quot;test&quot;,&quot;surname&quot;:&quot;test&quot;,&quot;email&quot;:&quot;test@gmail.com&quot;,&quot;address&quot;:&quot;test&quot;,&quot;alerting&quot;:false,&quot;emergencyAlertingThreshold&quot;:0.0}" />
-              <option name="time" value="2026-05-06 11:58:05" />
-              <option name="uri" value="/api/v1/user/{id}" />
+              <option name="res" value="Device not found with id: 1" />
+              <option name="time" value="2026-05-07 15:40:33" />
+              <option name="uri" value="" />
             </ReqHistory>
           </value>
         </entry>
@@ -401,17 +414,17 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
               <option name="id" value="16" />
               <option name="method" value="GET" />
               <option name="params">
                 <map>
-                  <entry key="id" value="6" />
+                  <entry key="id" value="1" />
                 </map>
               </option>
-              <option name="res" value="Error request, response status: 404" />
-              <option name="time" value="2026-05-06 11:58:12" />
-              <option name="uri" value="/api/v1/user/{id}" />
+              <option name="res" value="Device not found with id: 1" />
+              <option name="time" value="2026-05-07 15:40:33" />
+              <option name="uri" value="" />
             </ReqHistory>
           </value>
         </entry>
@@ -426,17 +439,17 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
               <option name="id" value="17" />
               <option name="method" value="GET" />
               <option name="params">
                 <map>
-                  <entry key="id" value="5" />
+                  <entry key="id" value="1" />
                 </map>
               </option>
-              <option name="res" value="{&quot;id&quot;:5,&quot;name&quot;:&quot;test&quot;,&quot;surname&quot;:&quot;test&quot;,&quot;email&quot;:&quot;test@gmail.com&quot;,&quot;address&quot;:&quot;test&quot;,&quot;alerting&quot;:false,&quot;emergencyAlertingThreshold&quot;:0.0}" />
-              <option name="time" value="2026-05-06 11:58:22" />
-              <option name="uri" value="/api/v1/user/{id}" />
+              <option name="res" value="Device not found with id: 1" />
+              <option name="time" value="2026-05-07 15:40:33" />
+              <option name="uri" value="" />
             </ReqHistory>
           </value>
         </entry>
@@ -456,11 +469,11 @@
               <option name="method" value="GET" />
               <option name="params">
                 <map>
-                  <entry key="id" value="5" />
+                  <entry key="id" value="1" />
                 </map>
               </option>
-              <option name="res" value="{&quot;id&quot;:5,&quot;name&quot;:&quot;test&quot;,&quot;surname&quot;:&quot;test&quot;,&quot;email&quot;:&quot;test@gmail.com&quot;,&quot;address&quot;:&quot;test&quot;,&quot;alerting&quot;:false,&quot;emergencyAlertingThreshold&quot;:0.0}" />
-              <option name="time" value="2026-05-06 12:00:10" />
+              <option name="res" value="{&quot;id&quot;:1,&quot;name&quot;:&quot;Sehan&quot;,&quot;surname&quot;:&quot;Jayawila&quot;,&quot;email&quot;:&quot;sehan@gmail.com&quot;,&quot;address&quot;:&quot;Nattandiya, Sri Lanka&quot;,&quot;alerting&quot;:false,&quot;emergencyAlertingThreshold&quot;:0.0}" />
+              <option name="time" value="2026-05-07 15:48:56" />
               <option name="uri" value="/api/v1/user/{id}" />
             </ReqHistory>
           </value>
@@ -481,11 +494,11 @@
               <option name="method" value="GET" />
               <option name="params">
                 <map>
-                  <entry key="id" value="5" />
+                  <entry key="id" value="1" />
                 </map>
               </option>
-              <option name="res" value="{&quot;id&quot;:5,&quot;name&quot;:&quot;test&quot;,&quot;surname&quot;:&quot;test&quot;,&quot;email&quot;:&quot;test@gmail.com&quot;,&quot;address&quot;:&quot;test&quot;,&quot;alerting&quot;:false,&quot;emergencyAlertingThreshold&quot;:0.0}" />
-              <option name="time" value="2026-05-06 12:02:37" />
+              <option name="res" value="{&quot;id&quot;:1,&quot;name&quot;:&quot;Sehan&quot;,&quot;surname&quot;:&quot;Jayawila&quot;,&quot;email&quot;:&quot;sehan@gmail.com&quot;,&quot;address&quot;:&quot;Nattandiya, Sri Lanka&quot;,&quot;alerting&quot;:false,&quot;emergencyAlertingThreshold&quot;:0.0}" />
+              <option name="time" value="2026-05-07 15:49:05" />
               <option name="uri" value="/api/v1/user/{id}" />
             </ReqHistory>
           </value>
@@ -506,11 +519,11 @@
               <option name="method" value="GET" />
               <option name="params">
                 <map>
-                  <entry key="id" value="5" />
+                  <entry key="id" value="1" />
                 </map>
               </option>
-              <option name="res" value="{&quot;id&quot;:5,&quot;name&quot;:&quot;test&quot;,&quot;surname&quot;:&quot;test&quot;,&quot;email&quot;:&quot;test@gmail.com&quot;,&quot;address&quot;:&quot;test&quot;,&quot;alerting&quot;:false,&quot;emergencyAlertingThreshold&quot;:0.0}" />
-              <option name="time" value="2026-05-06 12:03:57" />
+              <option name="res" value="{&quot;id&quot;:1,&quot;name&quot;:&quot;Sehan&quot;,&quot;surname&quot;:&quot;Jayawila&quot;,&quot;email&quot;:&quot;sehan@gmail.com&quot;,&quot;address&quot;:&quot;Nattandiya, Sri Lanka&quot;,&quot;alerting&quot;:false,&quot;emergencyAlertingThreshold&quot;:0.0}" />
+              <option name="time" value="2026-05-07 15:49:06" />
               <option name="uri" value="/api/v1/user/{id}" />
             </ReqHistory>
           </value>
@@ -534,83 +547,83 @@
                   <entry key="id" value="1" />
                 </map>
               </option>
-              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Wed May 06 22:51:38 JST 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Not Found, status=404).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
-              <option name="time" value="2026-05-06 22:51:38" />
-              <option name="uri" value="/api/v1/device/{id}" />
+              <option name="res" value="{&quot;id&quot;:1,&quot;name&quot;:&quot;Sehan&quot;,&quot;surname&quot;:&quot;Jayawila&quot;,&quot;email&quot;:&quot;sehan@gmail.com&quot;,&quot;address&quot;:&quot;Nattandiya, Sri Lanka&quot;,&quot;alerting&quot;:false,&quot;emergencyAlertingThreshold&quot;:0.0}" />
+              <option name="time" value="2026-05-07 15:49:06" />
+              <option name="uri" value="/api/v1/user/{id}" />
             </ReqHistory>
           </value>
         </entry>
         <entry key="22">
           <value>
             <ReqHistory>
-              <option name="body" value="{&#10;  &quot;name&quot;: &quot;test&quot;,&#10;  &quot;type&quot;: &quot;SPEAKER&quot;,&#10;  &quot;location&quot;: &quot;&quot;,&#10;  &quot;userId&quot;: 1&#10;}" />
-              <option name="contentType" value="application/json" />
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
               </option>
               <option name="headers">
-                <map>
-                  <entry key="Content-Type" value="application/json" />
-                </map>
+                <map />
               </option>
               <option name="host" value="http://127.0.0.1:8080" />
               <option name="id" value="22" />
-              <option name="method" value="POST" />
+              <option name="method" value="GET" />
               <option name="params">
-                <map />
+                <map>
+                  <entry key="id" value="1" />
+                </map>
               </option>
-              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Wed May 06 23:00:58 JST 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Not Found, status=404).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
-              <option name="time" value="2026-05-06 23:00:58" />
-              <option name="uri" value="/api/v1/device" />
+              <option name="res" value="{&quot;id&quot;:1,&quot;name&quot;:&quot;Sehan&quot;,&quot;surname&quot;:&quot;Jayawila&quot;,&quot;email&quot;:&quot;sehan@gmail.com&quot;,&quot;address&quot;:&quot;Nattandiya, Sri Lanka&quot;,&quot;alerting&quot;:false,&quot;emergencyAlertingThreshold&quot;:0.0}" />
+              <option name="time" value="2026-05-07 15:49:06" />
+              <option name="uri" value="/api/v1/user/{id}" />
             </ReqHistory>
           </value>
         </entry>
         <entry key="23">
           <value>
             <ReqHistory>
-              <option name="body" value="{&#10;  &quot;name&quot;: &quot;test&quot;,&#10;  &quot;type&quot;: &quot;SPEAKER&quot;,&#10;  &quot;location&quot;: &quot;&quot;,&#10;  &quot;userId&quot;: 1&#10;}" />
-              <option name="contentType" value="application/json" />
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
               </option>
               <option name="headers">
-                <map>
-                  <entry key="Content-Type" value="application/json" />
-                </map>
+                <map />
               </option>
               <option name="host" value="http://127.0.0.1:8080" />
               <option name="id" value="23" />
-              <option name="method" value="POST" />
+              <option name="method" value="GET" />
               <option name="params">
-                <map />
+                <map>
+                  <entry key="id" value="1" />
+                </map>
               </option>
-              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Wed May 06 23:02:59 JST 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Not Found, status=404).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
-              <option name="time" value="2026-05-06 23:02:59" />
-              <option name="uri" value="/api/v1/device" />
+              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Thu May 07 15:56:34 JST 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Not Found, status=404).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="time" value="2026-05-07 15:56:34" />
+              <option name="uri" value="/api/v1/device/{id}" />
             </ReqHistory>
           </value>
         </entry>
         <entry key="24">
           <value>
             <ReqHistory>
-              <option name="body" value="{&#10;  &quot;name&quot;: &quot;test&quot;,&#10;  &quot;type&quot;: &quot;SPEAKER&quot;,&#10;  &quot;location&quot;: &quot;&quot;,&#10;  &quot;userId&quot;: 1&#10;}" />
-              <option name="contentType" value="application/json" />
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
               </option>
               <option name="headers">
-                <map>
-                  <entry key="Content-Type" value="application/json" />
-                </map>
-              </option>
-              <option name="host" value="http://127.0.0.1:8081/api/v1/device" />
-              <option name="id" value="24" />
-              <option name="method" value="POST" />
-              <option name="params">
                 <map />
               </option>
-              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Wed May 06 23:03:12 JST 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Internal Server Error, status=500).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
-              <option name="time" value="2026-05-06 23:03:12" />
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
+              <option name="id" value="24" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="1" />
+                </map>
+              </option>
+              <option name="res" value="Device not found with id: 1" />
+              <option name="time" value="2026-05-07 15:56:42" />
               <option name="uri" value="" />
             </ReqHistory>
           </value>
@@ -631,9 +644,6 @@
               <option name="host" value="http://127.0.0.1:8081/api/v1/device" />
               <option name="id" value="25" />
               <option name="method" value="POST" />
-              <option name="params">
-                <map />
-              </option>
               <option name="res" value="{&quot;id&quot;:1,&quot;location&quot;:&quot;&quot;,&quot;name&quot;:&quot;test&quot;,&quot;type&quot;:&quot;SPEAKER&quot;,&quot;userId&quot;:1}" />
               <option name="time" value="2026-05-06 23:07:45" />
               <option name="uri" value="" />
@@ -647,9 +657,6 @@
               <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
-              </option>
-              <option name="headers">
-                <map />
               </option>
               <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
               <option name="id" value="26" />
@@ -673,9 +680,6 @@
               <option name="fileNames">
                 <array />
               </option>
-              <option name="headers">
-                <map />
-              </option>
               <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
               <option name="id" value="27" />
               <option name="method" value="GET" />
@@ -697,9 +701,6 @@
               <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
-              </option>
-              <option name="headers">
-                <map />
               </option>
               <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
               <option name="id" value="28" />
@@ -723,9 +724,6 @@
               <option name="fileNames">
                 <array />
               </option>
-              <option name="headers">
-                <map />
-              </option>
               <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
               <option name="id" value="29" />
               <option name="method" value="GET" />
@@ -748,9 +746,6 @@
               <option name="fileNames">
                 <array />
               </option>
-              <option name="headers">
-                <map />
-              </option>
               <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
               <option name="id" value="30" />
               <option name="method" value="GET" />
@@ -765,7 +760,488 @@
             </ReqHistory>
           </value>
         </entry>
+        <entry key="31">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
+              <option name="id" value="31" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="1" />
+                </map>
+              </option>
+              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Thu May 07 15:20:27 JST 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Internal Server Error, status=500).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="time" value="2026-05-07 15:20:27" />
+              <option name="uri" value="" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="32">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
+              <option name="id" value="32" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="1" />
+                </map>
+              </option>
+              <option name="res" value="{&quot;id&quot;:1,&quot;location&quot;:&quot;&quot;,&quot;name&quot;:&quot;test&quot;,&quot;type&quot;:&quot;SPEAKER&quot;,&quot;userId&quot;:1}" />
+              <option name="time" value="2026-05-07 15:21:47" />
+              <option name="uri" value="" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="33">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
+              <option name="id" value="33" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="5" />
+                </map>
+              </option>
+              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Thu May 07 15:21:56 JST 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Internal Server Error, status=500).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="time" value="2026-05-07 15:21:56" />
+              <option name="uri" value="" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="34">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
+              <option name="id" value="34" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="5" />
+                </map>
+              </option>
+              <option name="res" value="Device not found with id: 5" />
+              <option name="time" value="2026-05-07 15:22:29" />
+              <option name="uri" value="" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="35">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
+              <option name="id" value="35" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="5" />
+                </map>
+              </option>
+              <option name="res" value="Device not found with id: 5" />
+              <option name="time" value="2026-05-07 15:22:40" />
+              <option name="uri" value="" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="36">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
+              <option name="id" value="36" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="5" />
+                </map>
+              </option>
+              <option name="res" value="Device not found with id: 5" />
+              <option name="time" value="2026-05-07 15:22:41" />
+              <option name="uri" value="" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="37">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
+              <option name="id" value="37" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="5" />
+                </map>
+              </option>
+              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Thu May 07 15:23:50 JST 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Internal Server Error, status=500).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="time" value="2026-05-07 15:23:50" />
+              <option name="uri" value="" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="38">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
+              <option name="id" value="38" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="5" />
+                </map>
+              </option>
+              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Thu May 07 15:33:41 JST 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Internal Server Error, status=500).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="time" value="2026-05-07 15:33:41" />
+              <option name="uri" value="" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="39">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
+              <option name="id" value="39" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="5" />
+                </map>
+              </option>
+              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Thu May 07 15:34:00 JST 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Internal Server Error, status=500).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="time" value="2026-05-07 15:34:00" />
+              <option name="uri" value="" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="40">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="40" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="1" />
+                </map>
+              </option>
+              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Thu May 07 15:34:59 JST 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Not Found, status=404).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="time" value="2026-05-07 15:34:59" />
+              <option name="uri" value="/api/v1/device/{id}" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="41">
+          <value>
+            <ReqHistory>
+              <option name="body" value="{&#10;&#10;  &quot;name&quot;: &quot;t&quot;,&#10;  &quot;type&quot;: &quot;SPEAKER&quot;,&#10;  &quot;location&quot;: &quot;t&quot;,&#10;  &quot;userId&quot;: 0&#10;}" />
+              <option name="contentType" value="application/json" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map>
+                  <entry key="Content-Type" value="application/json" />
+                </map>
+              </option>
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device" />
+              <option name="id" value="41" />
+              <option name="method" value="POST" />
+              <option name="params">
+                <map />
+              </option>
+              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Thu May 07 15:35:25 JST 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Internal Server Error, status=500).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="time" value="2026-05-07 15:35:25" />
+              <option name="uri" value="" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="42">
+          <value>
+            <ReqHistory>
+              <option name="body" value="{&#10;&#10;  &quot;name&quot;: &quot;t&quot;,&#10;  &quot;type&quot;: &quot;SPEAKER&quot;,&#10;  &quot;location&quot;: &quot;t&quot;,&#10;  &quot;userId&quot;: 1&#10;}" />
+              <option name="contentType" value="application/json" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map>
+                  <entry key="Content-Type" value="application/json" />
+                </map>
+              </option>
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device" />
+              <option name="id" value="42" />
+              <option name="method" value="POST" />
+              <option name="params">
+                <map />
+              </option>
+              <option name="res" value="{&quot;id&quot;:2,&quot;location&quot;:&quot;t&quot;,&quot;name&quot;:&quot;t&quot;,&quot;type&quot;:&quot;SPEAKER&quot;,&quot;userId&quot;:1}" />
+              <option name="time" value="2026-05-07 15:35:39" />
+              <option name="uri" value="" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="43">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
+              <option name="id" value="43" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="0" />
+                </map>
+              </option>
+              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Thu May 07 15:35:51 JST 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Internal Server Error, status=500).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="time" value="2026-05-07 15:35:51" />
+              <option name="uri" value="" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="44">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
+              <option name="id" value="44" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="1" />
+                </map>
+              </option>
+              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Thu May 07 15:36:14 JST 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Internal Server Error, status=500).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="time" value="2026-05-07 15:36:14" />
+              <option name="uri" value="" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="45">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
+              <option name="id" value="45" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="1" />
+                </map>
+              </option>
+              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Thu May 07 15:37:44 JST 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Internal Server Error, status=500).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="time" value="2026-05-07 15:37:44" />
+              <option name="uri" value="" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="46">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
+              <option name="id" value="46" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="1" />
+                </map>
+              </option>
+              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Thu May 07 15:37:45 JST 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Internal Server Error, status=500).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="time" value="2026-05-07 15:37:46" />
+              <option name="uri" value="" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="47">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
+              <option name="id" value="47" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="1" />
+                </map>
+              </option>
+              <option name="res" value="Device not found with id: 1" />
+              <option name="time" value="2026-05-07 15:40:27" />
+              <option name="uri" value="" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="48">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
+              <option name="id" value="48" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="1" />
+                </map>
+              </option>
+              <option name="res" value="Device not found with id: 1" />
+              <option name="time" value="2026-05-07 15:40:29" />
+              <option name="uri" value="" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="49">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
+              <option name="id" value="49" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="1" />
+                </map>
+              </option>
+              <option name="res" value="Device not found with id: 1" />
+              <option name="time" value="2026-05-07 15:40:30" />
+              <option name="uri" value="" />
+            </ReqHistory>
+          </value>
+        </entry>
       </map>
+    </option>
+    <option name="point">
+      <AtomicInteger>
+        <option name="opaque" value="25" />
+        <option name="plain" value="25" />
+      </AtomicInteger>
     </option>
   </component>
 </project>

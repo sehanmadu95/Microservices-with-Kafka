@@ -31,18 +31,23 @@ public class DeviceController {
     @GetMapping("/{id}")
     public ResponseEntity<DeviceDto> getDeviceById(@PathVariable Long id) {
         DeviceDto deviceDto= deviceService.getDeviceById(id);
-
-        if (deviceDto == null) {
-            return ResponseEntity.notFound().build();
-        }
         return ResponseEntity.ok(deviceDto);
     }
 
     @PostMapping
     public ResponseEntity<DeviceDto> createDevice(@RequestBody DeviceDto deviceDto) {
-        log.info("Creating device with name: " + deviceDto.getName());
         DeviceDto createdDevice= deviceService.createDevice(deviceDto);
-        log.info("Created device with name: " + createdDevice);
         return ResponseEntity.status(HttpStatus.CREATED).body(createdDevice);
+    }
+
+    @PutMapping("/{id}")
+    public ResponseEntity<DeviceDto> updateDevice(@PathVariable Long id, @RequestBody DeviceDto deviceDto) {
+        DeviceDto updatedDevice= deviceService.updateDevice(id,deviceDto);
+        return ResponseEntity.ok(updatedDevice);
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<String> deleteDevice(@PathVariable Long id) {
+        return deviceService.deletDevice(id);
     }
 }
